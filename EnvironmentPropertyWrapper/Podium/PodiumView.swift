@@ -48,7 +48,7 @@ struct PodiumView: View {
             }
             
             if user.rank == 1 {
-                Text("✌️ Félicitation ! 💪")
+                Text("✌️ Félicitations ! 💪")
                     .font(.title)
                     .fontWeight(.heavy)
             }
