@@ -13,22 +13,35 @@ struct ContentView: View {
     
     @State private var showDetail = false
     
+    @State var tournoi: Tournoi = Tournoi()
+    
     let indexes = Array(1...10)
     
     var body: some View {
         NavigationView {
             VStack {
                 
-                TextField("Prénom", text: $user.name) .textFieldStyle(RoundedBorderTextFieldStyle()).padding()
+                HStack {
+                    Text("Prénom")
+                    TextField("", text: $user.name) .textFieldStyle(RoundedBorderTextFieldStyle()).padding()
+                }.padding()
+                
+                HStack {
+                    Text("Tournoi")
+                    TextField("", text: $tournoi.name) .textFieldStyle(RoundedBorderTextFieldStyle()).padding()
+                }.padding()
                 
                 Text("Position")
                     .font(.headline)
+                
                 Picker(selection: self.$user.rank, label: Text("")) {
                     ForEach(indexes, id: \.self) { index in
                         Text("n° \(index)").tag(index)
                     }
                 }
                 .labelsHidden()
+                
+                
                 
                 Button("Voir les résultats 🏆") {
                     self.showDetail.toggle()

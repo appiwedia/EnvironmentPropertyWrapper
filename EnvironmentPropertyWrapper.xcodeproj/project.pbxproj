@@ -16,6 +16,7 @@
 		3056D1C824C98EF9000CBEA1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3056D1C724C98EF9000CBEA1 /* User.swift */; };
 		3056D1CA24C9ADCF000CBEA1 /* PodiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3056D1C924C9ADCF000CBEA1 /* PodiumView.swift */; };
 		3056D1CC24C9CDAC000CBEA1 /* PlaceholderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3056D1CB24C9CDAC000CBEA1 /* PlaceholderImage.swift */; };
+		3075B585251B4A56002F7098 /* Tournoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3075B584251B4A55002F7098 /* Tournoi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3056D1C724C98EF9000CBEA1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3056D1C924C9ADCF000CBEA1 /* PodiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodiumView.swift; sourceTree = "<group>"; };
 		3056D1CB24C9CDAC000CBEA1 /* PlaceholderImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderImage.swift; sourceTree = "<group>"; };
+		3075B584251B4A55002F7098 /* Tournoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tournoi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				3056D1B724C98ED7000CBEA1 /* ContentView.swift */,
 				3056D1CD24C9CDCD000CBEA1 /* Podium */,
 				3056D1C724C98EF9000CBEA1 /* User.swift */,
+				3075B584251B4A55002F7098 /* Tournoi.swift */,
 				3056D1B924C98ED9000CBEA1 /* Assets.xcassets */,
 				3056D1BE24C98ED9000CBEA1 /* LaunchScreen.storyboard */,
 				3056D1C124C98ED9000CBEA1 /* Info.plist */,
@@ -119,7 +122,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = APPIWEDIA;
 				TargetAttributes = {
 					3056D1AF24C98ED7000CBEA1 = {
@@ -167,6 +170,7 @@
 				3056D1CA24C9ADCF000CBEA1 /* PodiumView.swift in Sources */,
 				3056D1CC24C9CDAC000CBEA1 /* PlaceholderImage.swift in Sources */,
 				3056D1B424C98ED7000CBEA1 /* AppDelegate.swift in Sources */,
+				3075B585251B4A56002F7098 /* Tournoi.swift in Sources */,
 				3056D1B624C98ED7000CBEA1 /* SceneDelegate.swift in Sources */,
 				3056D1B824C98ED7000CBEA1 /* ContentView.swift in Sources */,
 			);
@@ -212,6 +216,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -272,6 +277,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
